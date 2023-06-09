@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="joke.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: aqua;
+            padding: 10px;
+
+        }
+        img{
+            padding: 60px;
+        }
+       #button{
+        background-color: black;
+        color: aliceblue;
+        width: 100px;
+        margin-left: 700px;
+        display: flex;
+
+        place-content: center;
+       }
+       #button:hover{
+        background-color: silver;
+        color: brown;
+       }
+    </style>
+</head>
+<body>
+    <h2>Wanna hear something?</h2>
+    <div id="button">Yes!</div>
+    <div id="jokecontent"></div>
+    <div id="joke"></div>
+    <div class="pic">
+        <img id="minion" src="joke.png">
+        <p id="footer">Code your own joke generator ❤</p>
+    </div>
+    <script src="joke.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
